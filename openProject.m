@@ -3,8 +3,8 @@
 root_dir = fileparts(mfilename('fullpath'));
 
 addpath(fullfile(root_dir,'data'))
-addpath(fullfile(root_dir,'data','imav'))
-addpath(fullfile(root_dir,'data','imav','texture'))
+%addpath(fullfile(root_dir,'data','imav'))
+%addpath(fullfile(root_dir,'data','imav','texture'))
 addpath(fullfile(root_dir,'Drivers'))
 addpath(fullfile(root_dir,'matlab'))
 addpath(fullfile(root_dir,'matlab','trackingApp'))

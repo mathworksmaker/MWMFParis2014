@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project MetadataType="monolithic">
-    <EntryPoints Location="Root"/>
+    <EntryPoints Location="Root">
+        <EntryPoint Location="06bb1733-570b-4de1-9b51-ccfd6a6ad19f">
+            <Info File="openProject.m" Name="openProject" Type="StartUp"/>
+        </EntryPoint>
+        <EntryPoint Location="83e26c63-7ccb-4724-9015-c5f1e50377ae">
+            <Info File="closeProject.m" Name="closeProject" Type="Shutdown"/>
+        </EntryPoint>
+    </EntryPoints>
     <Files Location="Root">
         <File Location="README">
             <Info>
@@ -80,6 +87,16 @@
             <Info>
                 <Category UUID="FileClassCategory">
                     <Label UUID="design"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="work">
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="none"/>
                 </Category>
             </Info>
         </File>
