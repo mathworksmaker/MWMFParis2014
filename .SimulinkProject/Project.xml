@@ -25,6 +25,34 @@
             <DIR_SIGNIFIER Location="1">
                 <Info/>
             </DIR_SIGNIFIER>
+            <File Location="Robot.skp">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="other"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="robot_only.skp">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="other"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="Maker Faire.skp">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="other"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="MW_MakerFaire_Paris_Robot_BOM.xlsx">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="other"/>
+                    </Category>
+                </Info>
+            </File>
         </File>
         <File Location="model">
             <DIR_SIGNIFIER Location="1">
@@ -35,6 +63,13 @@
                     <Label UUID="none"/>
                 </Category>
             </Info>
+            <File Location="SimulationModel.slx">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
         </File>
         <File Location="Robot">
             <DIR_SIGNIFIER Location="1">
@@ -45,6 +80,216 @@
                     <Label UUID="none"/>
                 </Category>
             </Info>
+            <File Location="Wire.cpp">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="I2C_S_Function.c">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="sf_intro_sfun.mexw64">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="derived"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="Simulink_Gen_config.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="I2C_S_Function.tlc">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="other"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="I2C_S_Function_wrapper.cpp">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="SFB__I2C_S_Function__SFB.mat">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="TargetModel_old.slx">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="SFB__I2C_RPI_Send__SFB.mat">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="I2C_RPI_Send.mexw64">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="derived"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="Wire.h">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="TargetModel.slx">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="I2C_S_Function.mexw64">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="derived"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="SimulationModel_sfun.mexw64">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="derived"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="sfcn_encoder.tlc">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="other"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="sfcn_encoder.mexw64">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="derived"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="TargetModel.slx.original">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="other"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="rtwmakecfg.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="I2C_RPI_Send.c">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="SFB__sfcn_encoder__SFB.mat">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="I2C_RPI_Send_wrapper.c">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="Chart_sfun.mexw64">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="derived"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="I2C_S_Function_wrapper.c">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="rpi_i2c_send.slx">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="sfcn_encoder.c">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="Simulink_Gen_config.mat">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="sfcn_encoder_wrapper.c">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="TargetModel_sfun.mexw64">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="derived"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="TargetModel_Pascal.slx">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="I2C_RPI_Send.tlc">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="other"/>
+                    </Category>
+                </Info>
+            </File>
         </File>
         <File Location="data">
             <Info>
@@ -55,6 +300,62 @@
             <DIR_SIGNIFIER Location="1">
                 <Info/>
             </DIR_SIGNIFIER>
+            <File Location="robot_dessus.jpg">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="other"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="Arduino_Mega_2560.jpg">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="other"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="robot_3d.jpg">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="other"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="Positions.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="BackGround.jpg">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="other"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="BackGround - copie.jpg">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="other"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="loadRobotParameters.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="juge.jpg">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="other"/>
+                    </Category>
+                </Info>
+            </File>
         </File>
         <File Location="Drivers">
             <Info>
@@ -65,6 +366,90 @@
             <DIR_SIGNIFIER Location="1">
                 <Info/>
             </DIR_SIGNIFIER>
+            <File Location="Encoder.mexw32">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="derived"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="DigitalInput.c">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="Encoder.c">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="slblocks.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="PWM.c">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="DigitalInput.mexw32">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="derived"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="PWM.tlc">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="other"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="compile_sfunctions.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="Encoder.tlc">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="other"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="arduinodue_drivers.slx">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="DigitalInput.tlc">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="other"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="PWM.mexw32">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="derived"/>
+                    </Category>
+                </Info>
+            </File>
         </File>
         <File Location="matlab">
             <Info>
@@ -75,6 +460,215 @@
             <DIR_SIGNIFIER Location="1">
                 <Info/>
             </DIR_SIGNIFIER>
+            <File Location="SimulationModel_Mathieu_tuning.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="cameraAnalytic.m.bak">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="other"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="intEncoder.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="image2world.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="world2robot.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="camera.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="isincamera.m.bak">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="other"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="calculateProjection.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="script.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="SimulationModel_Mathieu_init.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="utilities">
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="fMySave.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="setPositions.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="none"/>
+                    </Category>
+                </Info>
+                <File Location="changeOrderTargetPoint.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="plotFigure.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+            </File>
+            <File Location="trackingApp">
+                <File Location="VideoViewer.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="RpiController.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="Robot_small_no back.png">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="other"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="robot.png">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="other"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="SimDisplay.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="Robot_full_no back.png">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="other"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="start.png">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="other"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="robot_dessus.jpg">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="other"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="TrackViewer.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="ProgressViewer.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="Robot_full_back.png">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="other"/>
+                        </Category>
+                    </Info>
+                </File>
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="none"/>
+                    </Category>
+                </Info>
+                <File Location="Robot_small_back.png">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="other"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="cancel.png">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="other"/>
+                        </Category>
+                    </Info>
+                </File>
+            </File>
         </File>
         <File Location="closeProject.m">
             <Info>

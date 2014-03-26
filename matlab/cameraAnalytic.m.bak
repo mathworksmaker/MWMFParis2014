@@ -1,0 +1,27 @@
+function [p_cam, l_cam] = cameraAnalytic(h_camera, alpha_camera, beta_camera, eta_camera)
+%
+%
+% Inputs
+%   - h_camera      : Camera height (in cm)
+%   - alpha_camera  : angle between the vertical (z-axis) and the camera 
+%   - beta_camera   : vertical angle of view of camera / 2 (in degrees)
+%   - eta_camera    : horizontal angle of view of camera / 2 (in degrees)
+%
+% Outputs
+%   - p_cam: Camera vision depth, 2 values: minimal and maximal depth for 
+%       the camera position. Depth corresponds to Y axis. Unit = cm.
+%   - l_cam: Camera vision width, 2 values: minimal and maximal width for 
+%       the camera position. Width corresponds to X axis. Unit = cm.
+%
+
+d1 = h_camera * tand( alpha_camera + beta_camera ) ;
+d2 = h_camera * tand( alpha_camera - beta_camera ) ;
+k1 = h_camera / cosd( alpha_camera - beta_camera ) ;
+k2 = h_camera / cosd( alpha_camera + beta_camera ) ;
+f1 = k1 * tand( eta_camera ) ;
+f2 = k2 * tand( eta_camera ) ;
+
+l_cam(1) = 2 * f1 ;
+l_cam(2) = 2 * f2 ;
+p_cam(1) = d2 ;
+p_cam(2) = d1 ;

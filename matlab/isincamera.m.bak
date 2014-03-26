@@ -1,0 +1,21 @@
+function [dist,bearing]=isincamera(p,l,x,y)
+
+c1=polyfit(p(1:2),[-l(1)/2 -l(2)/2],1);
+c2=polyfit(p(1:2),[l(1)/2 l(2)/2],1);
+
+flag = y>=p(1)& y<=p(2) & (x>=polyval(c1,y) & x<=polyval(c2,y));
+
+dist = sqrt(x.^2 + y.^2);
+bearing = atan2d(y,x)-90;
+
+dist(~flag) = -1;
+bearing(~flag) = -1;
+
+
+% if(y<p(1)||y>p(2))
+%     flag=false;
+% else
+%     c1=polyfit(p(1:2),[-l(1)/2 -l(2)/2],1);
+%     c2=polyfit(p(1:2),[l(1)/2 l(2)/2],1);
+%     flag=x>=polyval(c1,y) && x<=polyval(c2,y);
+% end
