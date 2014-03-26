@@ -694,6 +694,13 @@
                 </Category>
             </Info>
         </File>
+        <File Location="gitattributes">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="none"/>
+                </Category>
+            </Info>
+        </File>
     </Files>
     <ProjectData Location="Root"/>
     <Categories Location="Root">
